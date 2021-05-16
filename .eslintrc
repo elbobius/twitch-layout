@@ -1,0 +1,25 @@
+{
+	"root": true,
+	"extends": [
+		"xo/esnext",
+		"plugin:ava/recommended"
+	],
+	"plugins": [
+		"ava"
+	],
+	"rules": {
+		"new-cap": [
+			2,
+			{
+				"capIsNewExceptions": [
+					"Polymer",
+					"MutableData",
+					"nodecg.Replicant",
+					"NodeCG.Replicant",
+					"t.context.apis.extension.Replicant",
+					"window.dashboardApi.Replicant"
+				]
+			}
+		]
+	}
+}
