@@ -1,0 +1,42 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "description": "",
+  "homepage": "",
+  "author": {
+    "name": "Thomas Siller",
+    "email": "siller.thomas@gmx.net",
+    "url": ""
+  },
+  "files": [
+    "dashboard",
+    "graphics",
+    "extension.js",
+    "extension"
+  ],
+  "keywords": [
+    "",
+    "nodecg-bundle"
+  ],
+  "nodecg": {
+    "compatibleRange": "^1.1.1",
+    "dashboardPanels": [
+      {
+        "name": "panel",
+        "title": "Wager",
+        "width": 2,
+        "file": "wager/index.html",
+        "headerColor": "#525F78"
+      }
+    ],
+    "graphics": [
+      {
+        "file": "wager/index.html",
+        "width": 250,
+        "height": 1000
+      }
+    ]
+  },
+  "repository": "git@github.com:elbobius/twitch-layout.git",
+  "private": true
+}

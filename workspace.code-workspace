@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"eslint.workingDirectories": [
+			// workspace folders can interfer (elint cant resolve internal imports)
+			{
+				"pattern": "**/*"
+			}
+		],
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"eslint.validate": [
+			"javascript", "html"
+		]
+	}
+}
