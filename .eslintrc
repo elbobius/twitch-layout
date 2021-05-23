@@ -2,10 +2,14 @@
 	"root": true,
 	"extends": [
 		"xo/esnext",
-		"plugin:ava/recommended"
+		"plugin:ava/recommended",
+		"eslint:recommended",
+		"prettier"
 	],
 	"plugins": [
-		"ava"
+		"ava",
+		"html",
+		"prettier"
 	],
 	"rules": {
 		"new-cap": [
@@ -20,6 +24,19 @@
 					"window.dashboardApi.Replicant"
 				]
 			}
+		],
+		"prettier/prettier": [
+			2,
+			{
+				"singleQuote": true,
+				"semi": false
+			}
 		]
+	},
+	"env": {
+		"browser": true
+	},
+	"globals": {
+		"nodecg": true
 	}
 }

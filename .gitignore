@@ -6,7 +6,7 @@
 npm-debug.log
 
 # Local bundles
-/bundles/**
+# /bundles/**
 
 # Datastores
 /db/**

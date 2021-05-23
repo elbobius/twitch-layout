@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"eslint.options": {
+			"extensions": [
+				".js",
+				".html"
+			]
+		},
+		"eslint.workingDirectories": [
+			{
+				"pattern": "bundles"
+			}
+		],
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"eslint.validate": [
+			"javascript", "html"
+		]
+	}
+}
