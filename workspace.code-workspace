@@ -5,10 +5,15 @@
 		}
 	],
 	"settings": {
+		"eslint.options": {
+			"extensions": [
+				".js",
+				".html"
+			]
+		},
 		"eslint.workingDirectories": [
-			// workspace folders can interfer (elint cant resolve internal imports)
 			{
-				"pattern": "**/*"
+				"pattern": "bundles"
 			}
 		],
 		"editor.codeActionsOnSave": {

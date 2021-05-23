@@ -22,16 +22,33 @@
     "compatibleRange": "^1.1.1",
     "dashboardPanels": [
       {
-        "name": "panel",
+        "name": "wager",
         "title": "Wager",
         "width": 2,
         "file": "wager/index.html",
+        "headerColor": "#525F78"
+      },
+      {
+        "name": "bonus-hunt",
+        "title": "Bonus Hunt",
+        "width": 3,
+        "file": "bonus-hunt/index.html",
         "headerColor": "#525F78"
       }
     ],
     "graphics": [
       {
         "file": "wager/index.html",
+        "width": 250,
+        "height": 1000
+      },
+      {
+        "file": "bonus-hunt/calc.html",
+        "width": 250,
+        "height": 1000
+      },
+      {
+        "file": "bonus-hunt/win.html",
         "width": 250,
         "height": 1000
       }

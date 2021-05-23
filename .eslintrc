@@ -3,6 +3,7 @@
 	"extends": [
 		"xo/esnext",
 		"plugin:ava/recommended",
+		"eslint:recommended",
 		"prettier"
 	],
 	"plugins": [
@@ -36,6 +37,6 @@
 		"browser": true
 	},
 	"globals": {
-		"nodecg": "readonly"
+		"nodecg": true
 	}
 }
